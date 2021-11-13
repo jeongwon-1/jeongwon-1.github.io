@@ -24,7 +24,6 @@ IMG[8]=new Image( ); IMG[8].src="8.gif"
 IMG[9]=new Image( ); IMG[9].src="9.gif"
 audio = new Audio("slotmachine.wav")
 audio2 = new Audio("dingdong.wav")
-audio3 = new Audio("sigh.wav")
 function playAudio() {
     if (eval("sori").checked ) {
     audio2.pause()
@@ -35,11 +34,6 @@ function playAudio() {
 function playAudio2() {
     if (!eval("sori").checked ) {
     audio2.play()
-    }
-}
-function playAudio3() {
-    if (!eval("sori").checked ) {
-    audio3.play()
     }
 }
 function result() {
